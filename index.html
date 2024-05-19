@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="desktop">
+        <navbar class="navbar">
+            <div class="logo">GOSSIP BOX</div>
+            <div class="login">
+                <button id="login-btn">
+                    login
+                </button>
+                <button id="setting">
+                    <i class="fa-solid fa-gear"></i>
+                </button>
+            </div>
+        </navbar>
+        <section class="section">
+            <div class="home-section">
+                <div class="home-sec">
+                    <button class="home" id="user"><i class="fa-solid fa-house"></i><span>Home</span></button>
+                    <button class="Popular" id="user"><i class="fa-solid fa-fire"></i><span>Popular</span></button>
+                </div>
+                <hr>
+                <div class="user-name" style="margin-top:3px">
+                    <h2>Active Users</h2>
+                </div>
+                <hr>
+                <div class="users-section">
+                    <div class="users">
+
+
+                        <div class="home-sec">
+                            <button class="profile" id="user"><i class="fa-solid fa-user"></i><span>user</span></button>
+                            <button class="profile" id="user"><i class="fa-solid fa-user"></i><span>user</span></button>
+                            <button class="profile" id="user"><i class="fa-solid fa-user"></i><span>user</span></button>
+                            <button class="profile" id="user"><i class="fa-solid fa-user"></i><span>user</span></button>
+                            <button class="profile" id="user"><i class="fa-solid fa-user"></i><span>user</span></button>
+                            <button class="profile" id="user"><i class="fa-solid fa-user"></i><span>user</span></button>
+                            <button class="profile" id="user"><i class="fa-solid fa-user"></i><span>user</span></button>
+                            <button class="profile" id="user"><i class="fa-solid fa-user"></i><span>user</span></button>
+                            <button class="profile" id="user"><i class="fa-solid fa-user"></i><span>user</span></button>
+                            <button class="profile" id="user"><i class="fa-solid fa-user"></i><span>user</span></button>
+                            <button class="profile" id="user"><i class="fa-solid fa-user"></i><span>user</span></button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="personal-profile">
+                    <div class="profile-pic">
+                        <i class="fa-regular fa-user" id="profile-pic-id"></i>
+                    </div>
+                    <div class="profile-name">
+                        <h2 id="profile-name-id">Ankit</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="feed-section">
+                <div class="write-section">
+                    <div class="profile"><i class="fa-solid fa-user"></i></div>
+                    <input type="text" id="write" placeholder="share your gossips here" autofocus>
+
+                </div>
+                <div class="media">
+                    <div class="media-btns">
+                        <i class="fa-solid fa-image"></i>
+                        <i class="fa-solid fa-gift"></i>
+                        <i class="fa-solid fa-bars-progress"></i>
+                        <i class="fa-regular fa-face-smile"></i>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <button id="share"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+                <hr>
+                <div class="read-feed">
+
+                    <h2>For You</h2>
+                    <hr>
+                    <div class="gossip">
+
+                        <div class="card" style="width: 44rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Developer Words</h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">pinned</h6>
+                                <hr>
+                                <p class="card-text">Hey guys, this is Ankit. I have developed this website as my web
+                                    development practice. This is somewhat similar to X where peoplecan share their
+                                    thoughts
+                                    and feelings. Hope you guys find it entertaining and useful.</p>
+                            </div>
+                            <div class="reaction">
+                                <div class="exciting">
+                                    <button class="emoji" id="excite">🤩</button><span style="margin-left: -7px;"
+                                        id="excite-no">0</span>
+                                </div>
+                                <div class="surprise"><button class="emoji" id="wow">🫢
+                                    </button><span style="margin-left: -7px;" id="wow-no">0</span></div>
+                                <div class="dissapointment"><button class="emoji" id="huh">😒</button><span
+                                        style="margin-left: -7px;" id="huh-no">0</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comment-section">
+                <div class="comm-sec">
+                    <input class="search-box" id="search-here" placeholder="    search"><i
+                        class="fa-solid fa-magnifying-glass"></i>
+
+                </div>
+
+                <div class="gday">
+                    <div class="gday-title">
+                        Gossip Of The Day
+                    </div>
+                    <hr>
+                    <div class="gday-text">
+                        Hey guys, this is Ankit. I have developed this website as my web
+                                    development practice. This is somewhat similar to X where peoplecan share their
+                                    thoughts
+                                    and feelings. Hope you guys find it entertaining and useful.
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    <div class="mobile">
+        <div class="mob-post-sec">
+            <div class="topself">
+                <button id="arrow"><i class="fa-solid fa-arrow-left" style="font-size: 2rem;"></i></button>
+                <button id="mob-share"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+            <hr>
+            <div class="mob-write-sec">
+                <div class="mob-profile"><button><i class="fa-solid fa-user"></i></button></div>
+                <input type="text" id="mob-write" placeholder="share your gossips here" autofocus>
+            </div>
+            <hr>
+            <div class="mob-media">
+                <div class="mob-media-btns">
+                    <i class="fa-solid fa-image"></i>
+                    <i class="fa-solid fa-gift"></i>
+                    <i class="fa-solid fa-bars-progress"></i>
+                    <i class="fa-regular fa-face-smile"></i>
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="mob-profile"><button><i class="fa-solid fa-user"></i></button></div>
+            <div class="mob-logo" style="font-size: 2rem;">GOSSIP BOX</div>
+            <div class="more">
+                <button id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+                <div id="dropdown-menu" class="dropdown-content">
+                    <a href="#">About</a>
+                    <a href="#">Log out</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="mob-section">
+            <div class="mob-gossip">
+                <div class="mob-card">
+                    <div class="mob-profile-sec">
+                        <div class="mp mob-profile-pic"><i class="fa-solid fa-user"></i></div>
+                        <div class="mp mob-profile-name">Developer's Words</div>
+                        <div class="mp mob-time">pinned</div>
+                    </div>
+                    <div class="mob-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus qui ducimus velit hic.
+                        Eligendi aliquam, iste neque sint alias at? Earum consectetur est dolore unde tempore sunt
+                        commodi adipisci nulla!
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <button class="floating-btn">+</button>
+        <div class="mob-home-contain">
+            <div class="mob-home-section">
+                <div class="mob-home"><button><i class="fa-solid fa-home"></i></button></div>
+                <div class="mob-notify"><button><i class="fa-solid fa-bell"></i></button></div>
+                <div class="mob-star"><button><i class="fa-solid fa-star"></i></button></div>
+                <div class="mob-users"><button><i class="fa-solid fa-users"></i></button></div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script src="https://kit.fontawesome.com/9216f07896.js" crossorigin="anonymous"></script>
+    <script>
+        function gettime() {
+            var currentT = new Date();
+            var currentH = currentT.getHours();
+            var currentM = currentT.getMinutes();
+            var currentS = currentT.getSeconds();
+            var currentTime = currentH + ":" + currentM + ":" + currentS;
+            return currentTime;
+        }
+
+        let write = document.getElementById("write");
+        let writeMobile=document.getElementById("mob-write");
+        let readFeed = document.querySelector(".gossip");
+        let originalCard = document.querySelector(".card");
+
+        let mobGossip = document.querySelector(".mob-gossip");
+        let originalMobCard = document.querySelector(".mob-card");
+        
+        // desktop section
+        document.getElementById("share").addEventListener("click", () => {
+            var profileName = document.getElementById("profile-name-id");
+            var name = profileName.textContent;
+            let inputValue = write.value;
+
+            if (inputValue.trim() === "") {
+                alert("Please write something before sharing.");
+                return;
+            }
+
+            // Create new desktop card
+            let newCard = originalCard.cloneNode(true);
+            newCard.querySelector(".card-text").textContent = inputValue;
+            newCard.querySelector(".card-title").textContent = name;
+            newCard.querySelector(".card-subtitle").textContent = gettime();
+
+            newCard.querySelectorAll(".emoji").forEach(function (button) {
+                button.addEventListener("click", function () {
+                    let countSpan = this.nextElementSibling;
+                    let count = parseInt(countSpan.textContent);
+                    countSpan.textContent = count + 1;
+                    this.classList.toggle("hover-effect");
+                });
+            });
+
+            readFeed.insertBefore(newCard, readFeed.firstChild);
+
+            // Create new mobile card
+            let newMobCard = originalMobCard.cloneNode(true);
+            newMobCard.querySelector(".mob-content").textContent = inputValue;
+            newMobCard.querySelector(".mob-profile-name").textContent = name;
+            newMobCard.querySelector(".mob-time").textContent = gettime();
+
+            mobGossip.insertBefore(newMobCard, mobGossip.firstChild);
+
+            write.value = "";
+        });
+
+        //mobile section
+        document.getElementById("mob-share").addEventListener("click", (e) => {
+            var profileName = document.getElementById("profile-name-id");
+            var name = profileName.textContent;
+            let inputValue = writeMobile.value;
+
+            if (inputValue.trim() === "") {
+                alert("Please write something before sharing.");
+                return;
+            }
+
+            // Create new desktop card
+            let newCard = originalCard.cloneNode(true);
+            newCard.querySelector(".card-text").textContent = inputValue;
+            newCard.querySelector(".card-title").textContent = name;
+            newCard.querySelector(".card-subtitle").textContent = gettime();
+
+            newCard.querySelectorAll(".emoji").forEach(function (button) {
+                button.addEventListener("click", function () {
+                    let countSpan = this.nextElementSibling;
+                    let count = parseInt(countSpan.textContent);
+                    countSpan.textContent = count + 1;
+                    this.classList.toggle("hover-effect");
+                });
+            });
+
+            readFeed.insertBefore(newCard, readFeed.firstChild);
+
+            // Create new mobile card
+            let newMobCard = originalMobCard.cloneNode(true);
+            newMobCard.querySelector(".mob-content").textContent = inputValue;
+            newMobCard.querySelector(".mob-profile-name").textContent = name;
+            newMobCard.querySelector(".mob-time").textContent = gettime();
+
+            mobGossip.insertBefore(newMobCard, mobGossip.firstChild);
+
+            writeMobile.value = "";
+            const postSection = document.querySelector('.mob-post-sec');
+            e.stopPropagation();
+                postSection.classList.toggle('show2');
+        });
+
+
+        document.querySelectorAll(".emoji").forEach(function (button) {
+            button.addEventListener("click", function () {
+                this.classList.toggle("hover-effect");
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.getElementById('menu-toggle');
+            const dropdownMenu = document.getElementById('dropdown-menu');
+
+            menuToggle.addEventListener('click', function (event) {
+                event.stopPropagation();
+                dropdownMenu.classList.toggle('show');
+            });
+
+            window.addEventListener('click', function (event) {
+                if (!event.target.matches('#menu-toggle')) {
+                    if (dropdownMenu.classList.contains('show')) {
+                        dropdownMenu.classList.remove('show');
+                    }
+                }
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            const floatingButton = document.querySelector('.floating-btn');
+            const postSection = document.querySelector('.mob-post-sec');
+            floatingButton.addEventListener('click', function (e) {
+                e.stopPropagation();
+                console.log("Button clicked!");
+
+                postSection.classList.toggle('show2');
+            });
+            window.addEventListener('click', function (e) {
+                if (!event.target.matches('.floatingButton')) {
+                    if (postSection.classList.contains('show2')) {
+                        postSection.classList.remove('show2');
+                    }
+                }
+            });
+        });
+        document.getElementById("arrow").addEventListener("click",(e)=>{
+            const postSection = document.querySelector('.mob-post-sec');
+                e.stopPropagation();
+                console.log("Button clicked!");
+                postSection.classList.toggle('show2');
+        });
+        var gossipScroll = document.querySelector(".mob-section");
+        var btnn = document.querySelector(".mob-home").addEventListener("click", () => {
+            scrollToTopWithAnimation();
+        });
+
+        function scrollToTopWithAnimation() {
+            const scrollToTop = () => {
+                const c = gossipScroll.scrollTop;
+                if (c > 0) {
+                    window.requestAnimationFrame(scrollToTop);
+                    gossipScroll.scrollTo(0, c - c / 8);
+                }
+            };
+            scrollToTop();
+        }
+    </script>
+</body>
+
+</html>
